@@ -1,4 +1,38 @@
-# CMAD implementation
+## Convolution Matrix Anomaly Detection (CMAD)
+
+Traditional statistical analyses struggle to reveal the spatial and temporal clusters of anomalous events that contribute significantly to sea ice loss. To overcome this limitation, we introduce a novel method called **Convolution Matrix Anomaly Detection (CMAD)**.
+
+### Key Features of CMAD:
+
+- **No Neural Network Required:** CMAD provides an alternative to Convolutional Neural Networks (CNN) by using an inverse max pooling concept in its convolution operation. This approach is designed specifically for detecting loss (negative values) in sea ice extent, where the traditional CNN's convolution operation fails.
+  
+- **No Training or Testing Phase:** Unlike traditional CNNs, CMAD doesn't rely on extensive training or testing processes, making it computationally efficient and easy to apply.
+
+- **Satellite Image Utilization:** CMAD utilizes satellite images to monitor and detect loss in Antarctic sea ice extent, identifying clusters of anomalous melting events.
+
+- **Spatiotemporal Detection:** CMAD excels at detecting clusters of contiguous grids representing anomalous events, providing a more comprehensive understanding of sea ice melting patterns.
+
+- **Application Beyond Sea Ice:** The method has the potential to be adapted for other domains where the detection of clustered anomalous events is critical.
+
+### Performance:
+
+CMAD has demonstrated superior capabilities in detecting extreme events, with **87% accuracy** in benchmark data. When compared to traditional methods such as DBSCAN, HDBSCAN, K-Means, Bisecting K-Means, BIRCH, Agglomerative Clustering, OPTICS, and Gaussian Mixtures, **CMAD$_{Benchmark}$** exhibits heightened sensitivity and efficacy in capturing significant variations in dynamic multidimensional datasets.
+
+### Application:
+
+Our analysis shows that CMAD effectively detected clusters of anomalous melting patterns affecting the Weddell and Ross Sea regions in Antarctica. The anomalous melting process was first observed along the outer boundary of the sea ice extent in September 2022 and gradually spread throughout the region by February 2023.
+
+### Comparative Analysis:
+
+CMAD$_{Benchmark}$ outperformed traditional clustering and anomaly detection methods, proving its value as a more accurate and efficient tool for detecting extreme events in multidimensional datasets over time.
+
+---
+
+To run the code and replicate our results, follow the installation instructions and refer to the provided notebooks, including the `optics.ipynb` file, for examples of clustering algorithms applied to the AAR dataset. Make sure to install all necessary dependencies before running the code.
+
+
+
+
 
 | **Datasets**                                            | **Resolution/Pixels/Data Size**                                           | **Usage**                                    | **Python or Jupyter Files Files**                    | **Downloading the Data Source**                  |
 |---------------------------------------------------------|----------------------------------------------------------------------------|----------------------------------------------|-------------------------------------|-------------------------------------------------|

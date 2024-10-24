@@ -60,6 +60,6 @@ For benchmarking with AAR data, I applied all the clustering algorithms availabl
 Readers can follow the example in `optics.ipynb` to apply other clustering algorithms by modifying the code. Simply import the clustering algorithm in the notebook with the desired method from [scikit-learn](https://scikit-learn.org/1.5/modules/clustering.html).
 
 ### Dependencies:
-Before running the code, make sure to install the necessary libraries:
+Before running the code, make sure to install the necessary libraries.
 
 

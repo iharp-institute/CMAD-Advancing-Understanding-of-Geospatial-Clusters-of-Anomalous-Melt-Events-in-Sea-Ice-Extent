@@ -1,6 +1,6 @@
 ## Convolution Matrix Anomaly Detection (CMAD)
 
-Traditional statistical analyses struggle to reveal the spatial and temporal clusters of anomalous events that contribute significantly to sea ice loss. To overcome this limitation, we introduce a novel method called **Convolution Matrix Anomaly Detection (CMAD)**.
+Traditional models analyses struggle to reveal the spatial and temporal clusters of anomalous events that contribute significantly to sea ice loss. To overcome this limitation, we introduce a novel method called **Convolution Matrix Anomaly Detection (CMAD)**.
 
 ### Key Features of CMAD:
 
